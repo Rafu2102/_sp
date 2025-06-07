@@ -118,7 +118,7 @@ gcc -std=c99 -c factorial.c -o factorial.o
 
 ``` 
 
-## 4.列印目標檔的反組譯：factorial_dis.txt
+## 4. 列印目標檔的反組譯：factorial_dis.txt
 
 ### 輸入:
 
