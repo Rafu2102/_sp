@@ -1,4 +1,4 @@
-## 執行結果(hello.c)
+# 執行結果(hello.c)
 
 ``` 
 
@@ -8,8 +8,8 @@ hello, world
 
 ``` 
 
-## 執行結果(test.c)
-# 驗證do…while
+# 執行結果(test.c)
+## 驗證do…while
 
 ``` 
 
