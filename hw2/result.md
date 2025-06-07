@@ -3,7 +3,7 @@
 ``` 
 
 PS C:\Users\rafut\OneDrive\桌面\網頁\_sp\_sp\hw2> ./c4
-
+>>
 1> ENT  0
 2> IMM  140699399336281
 3> PSH 

@@ -3,7 +3,7 @@
 ``` 
 
 PS C:\Users\rafut\OneDrive\桌面\網頁\_sp\_sp\hw3> ./c4 hello.c
-
+>>
 hello, world
 
 ``` 
@@ -14,7 +14,7 @@ hello, world
 ``` 
 
 PS C:\Users\rafut\OneDrive\桌面\網頁\_sp\_sp\hw3> ./c4 test.c 
-
+>>
 power2(3) = 8
 arr[0] = 8
 arr[1] = 16
