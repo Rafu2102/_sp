@@ -1,4 +1,9 @@
+## 執行結果
+
+``` 
+
 PS C:\Users\rafut\OneDrive\桌面\網頁\_sp\_sp\hw2> ./c4
+
 1> ENT  0
 2> IMM  140699399336281
 3> PSH 
@@ -80,3 +85,5 @@ power2(3)=8
 78> PSH
 79> EXIT
 exit(12) cycle = 79
+
+``` 
