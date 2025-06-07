@@ -11,6 +11,8 @@ hello, world
 # 執行結果(test.c)
 ## 驗證do…while
 
+找ChatGPT設計的test.c驗證do…while函數  
+
 ``` 
 
 PS C:\Users\rafut\OneDrive\桌面\網頁\_sp\_sp\hw3> ./c4 test.c 
