@@ -1,0 +1,77 @@
+// prog_opt.vm
+// 線性執行：階乘 (5!)、Fibonacci(7)、GCD(48,18)、sin/cos/pow 測試
+
+// 1) 計算 5! = 120
+PUSH 1
+PUSH 2
+MUL
+PUSH 3
+MUL
+PUSH 4
+MUL
+PUSH 5
+MUL
+PRINT       // -> 120
+
+// 2) 計算 fib(7) = 13
+PUSH 0      // a=0
+PUSH 1      // b=1
+PUSH 7      // count=7
+STORE 0     // var0 = count
+STORE 1     // var1 = b
+STORE 2     // var2 = a
+LOOP_FIB:
+LOAD 2      // load a
+LOAD 1      // load b
+ADD         // a+b
+STORE 3     // var3 = next
+LOAD 1
+STORE 2     // a=b
+LOAD 3
+STORE 1     // b=next
+LOAD 0
+PUSH 1
+SUB
+STORE 0     // count--
+LOAD 0
+JNZ -15     // 如果 count!=0 重複
+LOAD 1
+PRINT       // -> 13
+
+// 3) 計算 GCD(48,18)=6
+PUSH 48
+PUSH 18
+SUB         // 48-18=30
+DUP
+PUSH 18
+SWAP
+SUB         // 30-18=12
+DUP
+PUSH 18
+SWAP
+SUB         // 12-18 <0
+SWAP
+PUSH 12
+SWAP
+SUB         // 18-12=6
+PUSH 12
+SWAP
+SUB         // 12-6=6
+PRINT       // -> 6
+
+// 4) 測試 sin/cos/pow
+PUSH 0
+SIN
+PRINT       // -> 0
+PUSH 1.570796
+SIN
+PRINT       // -> 1
+PUSH 3.141593
+COS
+PRINT       // -> -1
+PUSH 2
+PUSH 8
+POW
+PRINT       // -> 256
+
+HALT
