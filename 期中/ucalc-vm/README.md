@@ -64,6 +64,6 @@ PS C:\Users\rafut\OneDrive\桌面\網頁\_sp\_sp\期中\ucalc-vm> ./ucalc-vm pro
 
 ## 四、實作
 
-由ChatGPT提供主題構思
-參考老師上課內容先做出雛形
-之後由ChatGPT處理主要程式結構規劃與排版優化
+由ChatGPT提供主題構思  
+參考老師上課內容先做出雛形  
+之後由ChatGPT處理主要程式結構規劃與排版優化  
